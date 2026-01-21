@@ -1,5 +1,4 @@
 import "./App.css";
-import TechStack from "./components/TechStack";
 import MyWorks from "./components/MyWorks";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
