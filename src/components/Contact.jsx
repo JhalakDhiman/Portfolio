@@ -10,7 +10,7 @@ const Contact = ({ contactRef }) => {
                 <h1 className='pt-[8rem] text-pink-400 text-center font-semibold text-[2rem]'>Contact With Me</h1>
                 <div className='flex gap-[70px] mt-[3rem]'>
                     <div className='flex flex-col bg-richblack-400 w-[40%] rounded-xl'>
-                        <img src={contact} className='rounded-t-xl' />
+                        <img src={contact} alt="contact" className='rounded-t-xl' />
                         <div className='flex flex-col gap-4 px-6 py-8'>
                             <h1 className='text-[25px] font-bold text-pure-greys-5'>Get In Touch</h1>
                             <p className='text-pure-greys-5'>I’m open to web development opportunities and collaborations. Feel free to reach out using the form. I’ll get back to you as soon as possible.</p>

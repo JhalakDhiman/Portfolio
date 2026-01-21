@@ -103,7 +103,7 @@ const TechStack = () => {
                      onClick={()=>{
                         setCurrentTech(tech)
                     }}
-                     className={`p-2 rounded-full outline-none text-[13px] font-semibold ${currentTech==tech?"text-pure-greys-700 bg-caribbeangreen-200":"border-[1px] border-pure-greys-200"}`}>{tech}</button>
+                     className={`p-2 rounded-full outline-none text-[13px] font-semibold ${currentTech===tech?"text-pure-greys-700 bg-caribbeangreen-200":"border-[1px] border-pure-greys-200"}`}>{tech}</button>
                 )
             })
         }
@@ -113,7 +113,7 @@ const TechStack = () => {
         {
            techs[currentTech].map((tech,index)=>(
             <div className='bg-richblack-700 hover:bg-richblack-600 hover:shadow-[10px_-5px_50px_-5px] hover:border-[1px] hover:border-richblue-200 hover:shadow-blue-200 cursor-pointer pt-[20px] px-[50px] flex flex-col items-center border-[1px] border-pure-greys-800 rounded-2xl gap-2 group' key={index}>
-                <img className='w-[100px] h-[60px] group-hover:rotate-12 group-hover:scale-110 transition-all duration-500' src={tech.icon}/>
+                <img alt='icon' className='w-[100px] h-[60px] group-hover:rotate-12 group-hover:scale-110 transition-all duration-500' src={tech.icon}/>
                 <p>{tech.name}</p>
                 <p className='text-blue-300 font-semibold mb-[20px]'>{tech.level}</p>
             </div>

@@ -9,7 +9,7 @@ const Information = ({aboutRef}) => {
         <div ref={aboutRef} className="bg-richblack-800 pt-[6rem]">
             <div className="w-10/12 mx-auto flex gap-[6rem]">
                 <div className="w-[40%]">
-                    <img src={skills} className="rounded-xl" />
+                    <img src={skills} alt='skill' className="rounded-xl" />
                 </div>
                 <div className="w-[60%] flex flex-col gap-7">
                     <h1 className="text-pure-greys-5 text-[2rem] font-semibold">Solving real-world problems through clean and scalable code.</h1>

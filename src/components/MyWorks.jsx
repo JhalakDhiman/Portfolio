@@ -4,6 +4,7 @@ import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
 import { MdArrowOutward } from "react-icons/md";
 
+
 const MyWorks = ({workRef}) => {
 
     const projects = [
@@ -42,7 +43,7 @@ const MyWorks = ({workRef}) => {
             {
                 projects.map((project)=>(
                  <div className='flex bg-richblack-400 flex-col gap-3 w-[33.33%] p-6 rounded-xl border-[1px] border-pure-greys-700 hover:shadow-[12px_-5px_50px_-5px] hover:shadow-richblue-700 hover:-translate-y-3 hover:translate-x-1 transition-all duration-500 hover:border-[2px] hover:border-blue-500'>
-                    <img className='rounded-xl' src={project.thumbnail}/>
+                    <img alt='thumbnail' className='rounded-xl' src={project.thumbnail}/>
                     <div className='bg-richblack-300 px-2 py-1 text-[13px] font-semibold rounded-full max-w-fit'>
                         {project.category}
                     </div>
