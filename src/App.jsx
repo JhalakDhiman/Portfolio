@@ -31,7 +31,7 @@ function App() {
     <div className="bg-richblack-900 text-pure-greys-50 w-full">
       <div className="w-full h-[60px] border-b-[1px] z-20 bg-richblack-900 border-b-pure-greys-600 sticky top-0">
         <div className="w-10/12 h-full mx-auto">
-          <div className="flex justify-between h-full items-center">
+          <div className="flex flex-col md:flex-row lg:flex-row justify-between h-full items-center">
             <div className="font-semibold text-[20px]">
               Full Stack Developer
             </div>

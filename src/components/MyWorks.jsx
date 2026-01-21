@@ -38,11 +38,11 @@ const MyWorks = ({workRef}) => {
     <div ref={workRef} className='bg-richblack-500'>
       <div className='w-11/12 mx-auto flex flex-col items-center'>
         <h1 className='text-pure-greys-5 font-bold text-[3rem]'>My Works</h1>
-        <p className='text-pure-greys-300 text-[1.1rem]'>A showcase of my latest projects and creations</p>
-        <div className='flex gap-12 mt-[3rem]'>
+        <p className='text-pure-greys-300 text-[1.1rem] text-center'>A showcase of my latest projects and creations</p>
+        <div className='flex flex-col lg:flex-row gap-12 mt-[3rem]'>
             {
                 projects.map((project)=>(
-                 <div className='flex bg-richblack-400 flex-col gap-3 w-[33.33%] p-6 rounded-xl border-[1px] border-pure-greys-700 hover:shadow-[12px_-5px_50px_-5px] hover:shadow-richblue-700 hover:-translate-y-3 hover:translate-x-1 transition-all duration-500 hover:border-[2px] hover:border-blue-500'>
+                 <div className='flex bg-richblack-400 flex-col gap-3 w-[100%] lg:w-[33.33%] p-6 rounded-xl border-[1px] border-pure-greys-700 hover:shadow-[12px_-5px_50px_-5px] hover:shadow-richblue-700 hover:-translate-y-3 hover:translate-x-1 transition-all duration-500 hover:border-[2px] hover:border-blue-500'>
                     <img alt='thumbnail' className='rounded-xl' src={project.thumbnail}/>
                     <div className='bg-richblack-300 px-2 py-1 text-[13px] font-semibold rounded-full max-w-fit'>
                         {project.category}

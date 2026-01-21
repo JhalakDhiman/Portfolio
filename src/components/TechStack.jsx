@@ -109,7 +109,7 @@ const TechStack = () => {
         }
       </div>
 
-      <div className='flex gap-6 mt-8'>
+      <div className='flex flex-col lg:flex-row gap-6 mt-8'>
         {
            techs[currentTech].map((tech,index)=>(
             <div className='bg-richblack-700 hover:bg-richblack-600 hover:shadow-[10px_-5px_50px_-5px] hover:border-[1px] hover:border-richblue-200 hover:shadow-blue-200 cursor-pointer pt-[20px] px-[50px] flex flex-col items-center border-[1px] border-pure-greys-800 rounded-2xl gap-2 group' key={index}>

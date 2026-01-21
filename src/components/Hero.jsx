@@ -10,7 +10,7 @@ const Hero = ({ homeRef }) => {
   return (
     <div ref={homeRef}>
       <div className="w-10/12 mx-auto flex justify-between items-center my-[4rem]">
-        <div className="w-[50%] font-semibold flex flex-col gap-2">
+        <div className="w-[100%] md:w-[50%] lg:w-[50%] font-semibold flex flex-col gap-2">
           <p className="text-[3rem] text-pure-greys-50">Hi,I am</p>
           <p className="text-[3rem] text-pink-300">Jhalak Dhiman</p>
           <TypeAnimation
@@ -35,7 +35,7 @@ const Hero = ({ homeRef }) => {
           <p> I am a passionate Full Stack Developer specializing in the MERN stack and NextJs, with strong expertise in building scalable web applications and
             solving complex problems using DSA and C++. I have worked on projects including EdTech platforms and
             management systems, showcasing both technical and problem-solving skills.</p>
-          <div className="flex gap-24 mt-6">
+          <div className="flex flex-col md:flex-row lg:flex-row gap-24 mt-6">
             <FindWithMe />
             <div className="flex flex-col gap-2">
               <p>BEST SKILL ON</p>
@@ -47,7 +47,7 @@ const Hero = ({ homeRef }) => {
             </div>
           </div>
         </div>
-        <div className="w-[50%] flex justify-center">
+        <div className="w-[50%] hidden md:flex lg:flex  justify-center">
           <div className="h-[30rem] w-[30rem] rounded-full overflow-hidden group cursor-pointer shadow-[10px_-5px_50px_-5px] shadow-blue-200">
             <img
               src={myImage}

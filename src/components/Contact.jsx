@@ -8,8 +8,8 @@ const Contact = ({ contactRef }) => {
         <div ref={contactRef} className='bg-richblack-500 pb-[5rem]'>
             <div className='w-10/12 mx-auto'>
                 <h1 className='pt-[8rem] text-pink-400 text-center font-semibold text-[2rem]'>Contact With Me</h1>
-                <div className='flex gap-[70px] mt-[3rem]'>
-                    <div className='flex flex-col bg-richblack-400 w-[40%] rounded-xl'>
+                <div className='flex flex-col md:flex-row lg:flex-row gap-[70px] mt-[3rem]'>
+                    <div className='flex flex-col bg-richblack-400 w-[100%] md:w-[40%] lg:w-[40%] rounded-xl'>
                         <img src={contact} alt="contact" className='rounded-t-xl' />
                         <div className='flex flex-col gap-4 px-6 py-8'>
                             <h1 className='text-[25px] font-bold text-pure-greys-5'>Get In Touch</h1>
@@ -23,7 +23,7 @@ const Contact = ({ contactRef }) => {
                         target='blank'
                         action="https://formspree.io/f/mgoorvga"
                         method="POST"
-                        className="flex flex-col gap-5 w-[60%] bg-richblack-400 p-8 rounded-xl"
+                        className="flex flex-col gap-5 w-[100%] md:w-[60%] lg:w-[60%] bg-richblack-400 p-8 rounded-xl"
                     >
                         <p className="text-pink-200 font-semibold text-[1.2rem]">
                             Share your thoughts...
