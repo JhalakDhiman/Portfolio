@@ -15,13 +15,9 @@ const Hero = ({ homeRef }) => {
           <p className="text-[3rem] text-pink-300">Jhalak Dhiman</p>
           <TypeAnimation
             sequence={[
+              "Software Developer",
+              1000,
               "Full Stack Developer",
-              1000,
-              "Web Developer",
-              1000,
-              "Backend Developer",
-              1000,
-              "Coder",
               1000,
               "Problem Solver",
               1000,
