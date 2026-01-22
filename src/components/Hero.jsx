@@ -42,6 +42,8 @@ const Hero = ({ homeRef }) => {
               </div>
             </div>
           </div>
+
+          <a className="mt-7 px-6 py-3 border border-pink-200 text-pink-200 rounded-lg hover:bg-pink-200 hover:text-white transition w-fit" href='/Resume.pdf' target='_blank' rel='noopener noreferrer'>View Resume</a>
         </div>
         <div className="w-[50%] hidden md:flex lg:flex  justify-center">
           <div className="h-[30rem] w-[30rem] rounded-full overflow-hidden group cursor-pointer shadow-[10px_-5px_50px_-5px] shadow-blue-200">
